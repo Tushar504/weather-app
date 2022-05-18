@@ -1,0 +1,136 @@
+body{
+  background-image: url("http://africanmediaagency.com/wp-content/uploads/2021/09/image1440x560cropped.jpeg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 800px;
+
+}
+#final{
+ 
+  width: 100%;
+    
+    
+  
+    display: flex;
+    justify-content:center;
+    margin-bottom: 0px;
+
+}
+
+
+
+
+
+#container{
+  display: flex;
+}
+input{
+    padding: 5px 5px 5px 40px;
+    background: transparent  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 13px center;
+    width: 200px;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+#inputdiv{
+    background-color: white;
+    width: 200px;
+    height: 30px;
+    border: 0px;
+    border-radius: 10px;
+   margin:  20px;
+   margin-right: 5px;
+   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+   margin-left: 0px;
+}
+button{
+    height: 30px;
+    margin: 20px;
+    margin-left: 5px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: rgb(49, 65, 11);
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+#append{
+  display: flex;
+  width: 400px;
+  font-weight: bold;
+  margin-top: 50px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  color:white;
+
+}
+#append>div,h1{
+  margin-left: 10px;
+}
+#append>img{
+  width: 100px;
+  height: 100px;
+}
+div>p{
+  font-weight: bold;
+  margin-left: 10px;
+}
+#append>div{
+  border-left:2px solid white;
+}
+#second{
+  margin: 10px;
+  margin-left: 20px;
+
+ 
+}
+#info{
+  padding: 5px;
+  width:390px;
+  color:white;
+  font-weight: bold;
+  box-shadow: rgba(53, 59, 30, 0.56) 0px 22px 70px 4px;
+ margin-bottom: 10px;
+}
+#info>h1,h3{
+  margin: 0px;
+  color: rgb(9, 1, 24);
+}
+#forecast{
+  
+display: grid;
+grid-template-columns: repeat(7,1fr);
+margin-top: 50px;
+grid-gap: 50px;
+margin: auto;
+
+padding-left: 150px;
+padding-right: 150px;
+
+
+
+}
+#forecast>div{
+  text-align: center;
+  align-items: center;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+ 
+  font-weight: bold;
+  margin-bottom: 10px;
+  
+
+}
+#forecast>div>h3{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: white;
+}
+#forback>h2{
+  text-align: center;
+  margin-top: 10px;
+  color: white;
+
+}
+
+
+
+
+
